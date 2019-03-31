@@ -9,6 +9,10 @@ def create_project_hash
   
   proiects={}
   
+  kickstarter.css("li.project.grid_4").each do |project|
+    projects[project] = {}
+  end
+  
   
   #location: projects.css("ul.project-meta li a span.location-name").text
 end
