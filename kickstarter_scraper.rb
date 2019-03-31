@@ -13,6 +13,8 @@ def create_project_hash
     projects[project] = {}
   end
   
+  projects
+  
   
   #location: projects.css("ul.project-meta li a span.location-name").text
 end
